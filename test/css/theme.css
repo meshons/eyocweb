@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Exo");
+.landing {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column; }
+  .landing .block {
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; }
+  .landing .title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; }
+    .landing .title-box .title {
+      display: block;
+      font-size: 3rem;
+      font-family: 'Exo', sans-serif; }
+  .landing .menu-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center; }
+    .landing .menu-box .welcome {
+      display: block;
+      font-family: 'Exo', sans-serif;
+      font-size: 2rem;
+      text-align: center; }
+    .landing .menu-box .link {
+      display: block;
+      font-family: 'Exo', sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      text-shadow: white 0 0 2rem;
+      color: black;
+      text-decoration: none; }
+  .landing .h100 {
+    height: 100vh; }
+  .landing .hauto {
+    height: auto; }
+  .landing .mh100 {
+    min-height: 100vh; }
+  .landing .line {
+    display: block;
+    width: 100vw;
+    height: 1rem;
+    background-color: #282828; }
+
+/*# sourceMappingURL=theme.css.map */
